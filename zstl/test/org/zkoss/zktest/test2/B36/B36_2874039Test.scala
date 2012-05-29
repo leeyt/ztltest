@@ -50,9 +50,9 @@ class B36_2874039Test extends ZTL4ScalaTestCase {
 
 		<borderlayout height="100%">
 
-			<west border="none" margins="0,0,0,0" size="200px" flex="true" minsize="10" splittable="true"
+			<west border="none" margins="0,0,0,0" size="200px" minsize="10" splittable="true"
 				collapsible="true" autoscroll="false" style="padding: 0px 2px" title="Menu">
-				<div>
+				<div hflex="true" vflex="true">
 				<button id="change" label="change">
 				<attribute name="onClick">
 					mainArea.setTitle("Bug");
@@ -60,8 +60,8 @@ class B36_2874039Test extends ZTL4ScalaTestCase {
 				</button>
 				</div>
 			</west>
-			<center id="mainArea" border="none" margins="0,0,0,0" flex="true" style="padding: 3px;" title="No Bug">
-<window>
+			<center id="mainArea" border="none" margins="0,0,0,0" style="padding: 3px;" title="No Bug">
+<window hflex="true" vflex="true">
 	<listbox id="listbox" vflex="false" width="100%">
 		<listhead sizable="true">
 			<listheader label="Col1" width="80px" sort="auto(shortname)" />

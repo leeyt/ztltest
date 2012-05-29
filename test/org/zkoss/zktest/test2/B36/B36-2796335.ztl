@@ -2,8 +2,8 @@
 	<case id="scrollIntoView">
 		<server><!--
 			<borderlayout height="100%" style="background:white;">
-				<west title="ScrollIntoView" size="350px" flex="true">
-					<tabbox>
+				<west title="ScrollIntoView" size="350px">
+					<tabbox hflex="true" vflex="true">
 						<tabs>
 							<tab label="Test" />
 						</tabs>

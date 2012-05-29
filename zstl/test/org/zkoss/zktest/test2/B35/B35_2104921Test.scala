@@ -40,33 +40,33 @@ class B35_2104921Test extends ZTL4ScalaTestCase {
         <borderlayout height="500px">
           <north title="North" maxsize="300" size="50%" splittable="true" collapsible="true">
             <borderlayout>
-              <west title="West" size="25%" flex="true" maxsize="250" splittable="true" collapsible="true">
-                <div style="background:#B8D335">
+              <west title="West" size="25%" maxsize="250" splittable="true" collapsible="true">
+                <div style="background:#B8D335" hflex="true" vflex="true">
                   <label value="25%" style="color:white;font-size:50px"/>
                 </div>
               </west>
-              <center border="none" flex="true">
-                <div style="background:#E6D92C">
+              <center border="none">
+                <div style="background:#E6D92C" hflex="true" vflex="true">
                   <label value="25%" style="color:white;font-size:50px"/>
                 </div>
               </center>
-              <east size="50%" border="none" flex="true">
-                <label value="Here is a non-border" style="color:gray;font-size:30px"/>
+              <east size="50%" border="none">
+                <label value="Here is a non-border" style="color:gray;font-size:30px" hflex="true" vflex="true"/>
               </east>
             </borderlayout>
           </north>
           <center border="0">
             <borderlayout>
-              <west maxsize="600" size="30%" flex="true" border="0" splittable="true">
-                <div style="background:#E6D92C">
+              <west maxsize="600" size="30%" border="0" splittable="true">
+                <div style="background:#E6D92C" hflex="true" vflex="true">
                   <label value="30%" style="color:white;font-size:50px"/>
                 </div>
               </west>
               <center>
                 <label value="Here is a border" style="color:gray;font-size:30px"/>
               </center>
-              <east title="East" size="30%" flex="true" collapsible="true">
-                <div style="background:#B8D335">
+              <east title="East" size="30%" collapsible="true">
+                <div style="background:#B8D335" hflex="true" vflex="true">
                   <label value="30%" style="color:white;font-size:50px"/>
                 </div>
               </east>

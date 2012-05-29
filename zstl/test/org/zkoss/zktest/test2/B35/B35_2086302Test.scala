@@ -59,28 +59,28 @@ Please click the "Open or Close GroupBox" button, and then the border layout sho
 <north maxsize="300" size="50%" border="0" splittable="true"
 collapsible="true">
 <borderlayout id="bl2">
-<west size="25%" border="none" flex="true" maxsize="250"
+<west size="25%" border="none" maxsize="250"
 splittable="true" collapsible="true">
-<div id="w2" style="background:#B8D335">
+<div id="w2" style="background:#B8D335" hflex="true" vflex="true">
 <label value="25%" style="color:white;font-size:50px"/>
 </div>
 </west>
-<center border="none" flex="true">
-<div id="c2" style="background:#E6D92C">
+<center border="none">
+<div id="c2" style="background:#E6D92C" hflex="true" vflex="true">
 <label value="25%" style="color:white;font-size:50px"/>
 </div>
 </center>
-<east  size="50%" border="none" flex="true">
+<east  size="50%" border="none">
 <label id="e2" value="Here is a non-border"
-style="color:gray;font-size:30px"/>
+style="color:gray;font-size:30px" hflex="true" vflex="true"/>
 </east>
 </borderlayout>
 </north>
 <center border="0">
 <borderlayout id="bl3">
-<west maxsize="600" size="30%" flex="true" border="0"
+<west maxsize="600" size="30%" border="0"
 splittable="true" collapsible="true">
-<div id="w3" style="background:#E6D92C">
+<div id="w3" style="background:#E6D92C" hflex="true" vflex="true">
 <label value="30%" style="color:white;font-size:50px"/>
 </div>
 </west>
@@ -88,8 +88,8 @@ splittable="true" collapsible="true">
 <label id="c3" value="Here is a border"
 style="color:gray;font-size:30px"/>
 </center>
-<east size="30%" flex="true" border="0" collapsible="true">
-<div id="e3" style="background:#B8D335">
+<east size="30%" border="0" collapsible="true">
+<div id="e3" style="background:#B8D335" hflex="true" vflex="true">
 <label value="30%" style="color:white;font-size:50px"/>
 </div>
 </east>

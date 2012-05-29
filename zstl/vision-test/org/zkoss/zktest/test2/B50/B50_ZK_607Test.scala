@@ -28,7 +28,7 @@ class B50_ZK_607Test extends ZTL4ScalaTestCase {
 			<zk xmlns:n="native">
 				<borderlayout>
 					<center>Please click the south icon to open it, then you should see "south" label at the south area</center>
-					<south open="false" flex="true" title="south" collapsible="true">
+					<south open="false" title="south" collapsible="true">
 						<n:div/>
 					</south>
 				</borderlayout>

@@ -42,8 +42,9 @@ class B35_2089073Test extends ZTL4ScalaTestCase {
 		<zk:center>
 			<zk:window id="center"/>
 		</zk:center>
-		<zk:south size="3%" flex="true">
-			<h:table class="ToolbarTable">
+		<zk:south size="3%">
+			<div hflex="true" vflex="true">
+			<h:table class="ToolbarTable" style="width:100%">
 				<h:tr>
 					<h:td align="left">
 						<zk:label id="lblFooter" style="font-size: 8pt;"/>
@@ -55,7 +56,8 @@ class B35_2089073Test extends ZTL4ScalaTestCase {
 						<zk:label id="lblUtilizadores" style="font-size: 8pt;"/>
 					</h:td>
 				</h:tr>
-			</h:table>			
+			</h:table>
+			</div>
 		</zk:south>
 	</zk:borderlayout>
 	
