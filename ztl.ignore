@@ -26,6 +26,8 @@ all={
 // unsupported
 B30-2009958.ztl
 B35-2580752.ztl
+// need update ztl
+B65-ZK-1462.ztl
 // zkbind bean validation
 Z60-B01005BeanValidatorPath.ztl
 }
